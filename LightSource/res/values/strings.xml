@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LightSource</string>
+    <string name="spectroname">Set Spectro Name</string>    
+    <string name="intensidad">Intensity</string>
+    <string name="saturacion">Saturation</string>
+	<string name="save">Save</string>    
+    <string name="load">Load</string>	
+    <string name="confirm">Confirm</string>
+    <string name="defecto">Default</string>
+    <string name="fichero">File</string>
+    <string name="cargado">Loaded</string>
+    <string name="carpeta">Folder</string>
+    <string name="filesize">File size</string>
+    <string name="parentdir">Parent directory</string>
+	<string name="currentdir">Directory</string>    
+    <string name="fileclick">Selected file</string>
+    <string name="fromfile">FILE</string>
+    <string name="putname">NOT VALID NAME</string>
+    <string name="fromspectro">SPECTROMETER</string>
+    <string name="fromwhere">FROM WHERE?</string>
+    <string name="acerca">ABOUT...</string>
+	<string name="get_spectro">GET SPECTRO</string>    
+    <string name="add_device">ADD DEVICE</string>
+    <string name="listado_ficheros">FILE LIST</string>
+    <string name="listado_luminarias">LIMINARY LIST</string>
+    <string name="listado_spectros">SPECTROMETER LIST</string>
+	<string name="listado_luces">SPECTRO LIST</string>     
+    <string name="acercade">
+        LightSource by Oscar Motto v0.1 \n-------------------------------- \n{0,0} Buhhhhh!!!!!! \n-------------------------------- \nRegards.
+    </string>
+    <string name="aceptar">OK</string>
+	<string name="cancel">CANCEL</string>
+    <string name="remove">DELETE FILE</string>
+    <string name="error_fill">ERROR: FILL ALL THE INFORMATION</string>
+	<string name="luminaria">LUMINARY</string>
+    <string name="spectrometro">SPECTROMETER</string>
+    <string name="nombre">NAME</string>
+    <string name="puerto">PORT</string>
+    <string name="ip">IP</string>
+    <string name="conexion">ADD CONNECTION</string>    
+</resources>

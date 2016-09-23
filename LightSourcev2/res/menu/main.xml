@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:title="@string/listado_spectros"
+        android:id="@+id/config"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:orderInCategory="95"
+        android:showAsAction="ifRoom"/>
+    <item android:title="@string/acerca"
+        android:id="@+id/acercaDe"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:showAsAction="ifRoom|"/>
+    <item android:title="@string/listado_ficheros"
+        android:id="@+id/menu_fichero"
+        android:orderInCategory="90"
+        android:icon="@android:drawable/ic_menu_save"
+        android:showAsAction="always|collapseActionView"/>
+    <item android:title="@string/listado_luminarias"
+   		android:id="@+id/menu_list"
+   		android:icon="@android:drawable/ic_menu_upload"
+   		android:orderInCategory="100"
+   		android:showAsAction="always"/>
+	<item android:id="@+id/accion_nuevo"
+    	android:icon="@android:drawable/ic_menu_add"
+    	android:orderInCategory="80"
+    	android:showAsAction="ifRoom"
+    	android:title="@string/add_device"/>    
+</menu>

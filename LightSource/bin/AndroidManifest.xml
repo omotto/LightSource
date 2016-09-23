@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cat.irec.lightsource"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>	
+	
+    <application
+        android:name="Aplicacion"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:theme="@style/TemaAsteroides"
+            android:name="cat.irec.lightsource.MainActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+ 		<activity
+            android:name="cat.irec.lightsource.AddDevices"
+            android:label="@string/add_device" 
+            android:screenOrientation="portrait">
+		</activity>
+		
+ 		<activity
+            android:name="cat.irec.lightsource.ListDevices"
+            android:label="@string/listado_luminarias"
+            android:screenOrientation="portrait">
+		</activity> 		
+		
+ 		<activity
+            android:name="cat.irec.lightsource.ListSpectros"
+            android:label="@string/listado_spectros" 
+            android:screenOrientation="portrait">
+		</activity> 
+		
+ 		<activity
+            android:name="cat.irec.lightsource.ListFiles"
+            android:label="@string/listado_ficheros"
+            android:screenOrientation="portrait">
+		</activity> 
+		
+		<activity 
+            android:name="cat.irec.lightsource.AcercaDe"
+          	android:label="@string/acerca"
+	        android:theme="@android:style/Theme.Dialog"
+	        android:screenOrientation="portrait">
+        </activity>
+        
+ 		<activity
+            android:name="cat.irec.lightsource.ListLights"
+   	        android:theme="@android:style/Theme.Dialog"
+            android:label="@string/listado_luces"
+            android:screenOrientation="portrait">
+		</activity>		
+
+		<activity 
+            android:name="cat.irec.lightsource.GetSpectro"
+          	android:label="@string/get_spectro"
+	        android:theme="@android:style/Theme.Dialog"
+	        android:screenOrientation="portrait">
+        </activity> 		
+	</application>
+</manifest>

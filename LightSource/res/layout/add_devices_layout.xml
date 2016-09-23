@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nombre" />
+    <EditText
+        android:id="@+id/editanombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" >
+        <requestFocus/>
+    </EditText>
+
+    <TextView
+        android:id="@+id/puerto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/puerto" />
+    <EditText
+        android:id="@+id/editapuerto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/ip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ip" />
+    <EditText
+        android:id="@+id/editaip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"/>
+
+    <Spinner
+        android:id="@+id/selector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/boton"
+       	android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/conexion"/>
+
+</LinearLayout>

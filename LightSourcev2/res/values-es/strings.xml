@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LightSource</string>  
+    <string name="spectroname">Nombre del Espectro</string>    
+    <string name="intensidad">Intensidad</string>
+    <string name="saturacion">Saturación</string>
+    <string name="save">Guardar</string>
+    <string name="load">Cargar</string>
+    <string name="confirm">Confirmar</string>
+    <string name="defecto">Por defecto</string>
+    <string name="fichero">Fichero</string>
+    <string name="cargado">Cargado</string>
+    <string name="carpeta">Carpeta</string>
+    <string name="filesize">Tamaño del fichero</string>
+    <string name="parentdir">Carpeta anterior</string>
+    <string name="currentdir">Carpeta</string>
+    <string name="fileclick">Fichero seleccionado</string>
+    <string name="putname">NOMBRE NO VÁLIDO</string>
+    <string name="acerca">ACERCA DE...</string>
+    <string name="fromfile">FICHERO</string>
+    <string name="fromspectro">ESPECTROMETRO</string>
+    <string name="fromwhere">ORIGEN DEL ESPECTRO</string>
+    <string name="get_spectro">LEER ESPECTRO</string>
+    <string name="add_device">AÑADIR DISPOSITIVO</string>
+    <string name="listado_ficheros">LISTA FICHEROS</string>
+    <string name="listado_luminarias">LISTA LUMINARIAS</string>
+    <string name="listado_spectros">LISTA ESPECTRÓMETROS</string>
+    <string name="listado_luces">LISTA ESPECTROS</string>
+    <string name="acercade">
+        LightSource by Oscar Motto v0.1 \n-------------------------------- \n{0,0} Buhhhhh!!!!!! \n-------------------------------- \nRegards.
+    </string>
+    <string name="aceptar">ACEPTAR</string>
+	<string name="cancel">CANCELAR</string>
+    <string name="remove">BORRAR FICHERO</string>
+    <string name="error_fill">ERROR: RELLENA TODA LA INFORMACIÓN</string>
+	<string name="luminaria">LUMINARIA</string>
+    <string name="spectrometro">SPECTROMETRO</string>
+    <string name="nombre">NOMBRE</string>
+    <string name="puerto">PUERTO</string>
+    <string name="ip">IP</string>
+    <string name="conexion">AÑADIR CONEXIÓN</string>
+</resources>
